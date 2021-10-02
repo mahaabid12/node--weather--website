@@ -5,11 +5,13 @@ const formSelector=document.querySelector('form')
 const searchSelector= document.querySelector('input')
 const elementOne=document.querySelector(".temperature");
 const elementTwo=document.querySelector("location");
+console.log(elementTwo)
 console.log(elementOne)
 
 
 elementOne.textContent="loading message"
 elementTwo.textContent=""
+
 
 formSelector.addEventListener('submit',(e)=>{
     e.preventDefault() 
