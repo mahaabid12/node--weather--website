@@ -1,6 +1,4 @@
-fetch('http://localhost:3000/weather?address=hdghgjhdgsbjhv').then((response)=>{
-    response.json().then((data)=>{console.log(data)})
-})
+
 
 
 const formSelector=document.querySelector('form')
@@ -19,7 +17,7 @@ formSelector.addEventListener('submit',(e)=>{
     const address=searchSelector.value;
     console.log(address)
 
-    const url= 'http://localhost:3000/weather?address='+address
+    const url= '/weather?address='+address
     console.log(url)
 
     fetch(url).then((response)=>{
