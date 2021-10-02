@@ -4,7 +4,7 @@
 const formSelector=document.querySelector('form')
 const searchSelector= document.querySelector('input')
 const elementOne=document.querySelector(".temperature");
-const elementTwo=document.querySelector("location");
+const elementTwo=document.querySelector(".location");
 console.log(elementTwo)
 console.log(elementOne)
 
